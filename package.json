@@ -1,0 +1,29 @@
+{
+  "name": "es-apm-sys-sim-lp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "elasticsearch apm system metrics simulator for the launchpad",
+  "license": "MIT",
+  "author": "Patrick Mueller <pmuellr@apache.org> (https://github.com/pmuellr)",
+  "homepage": "https://github.com/pmuellr/es-apm-sys-sim-lp",
+  "bin": {
+    "es-apm-sys-sim-lp": "es-apm-sys-sim-lp.js"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pmuellr/es-apm-sys-sim-lp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pmuellr/es-apm-sys-sim-lp/issues"
+  },
+  "devDependencies": {
+  },
+  "optionalDependencies": {
+    "midi": "^2.0.0"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.5.1"
+  }
+}
