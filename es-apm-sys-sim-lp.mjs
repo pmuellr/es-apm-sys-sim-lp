@@ -46,7 +46,7 @@ async function main() {
     launchPad.shutdown()
     process.exit(0)
   }
-  
+
   process.on('SIGINT', shutItDown)
   process.on('SIGTERM', shutItDown)
   process.on('SIGBREAK', shutItDown)
