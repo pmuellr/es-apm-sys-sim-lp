@@ -76,7 +76,7 @@ usage
 ================================================================================
 
 ```
-es-apm-sys-sim <intervalSeconds> [<indexName> [<clusterURL>]]
+es-apm-sys-sim-lp <intervalSeconds> [<indexName> [<clusterURL>]]
 ```
 
 Every `<intervalSeconds>` seconds, documents will be written to `<indexName>` at
