@@ -5,7 +5,8 @@
 import * as es from '@elastic/elasticsearch'
 
 import { createLaunchPad } from './lib/launchpad.mjs'
-import { Host } from "./lib/host.mjs"
+import { Host } from './lib/host.mjs'
+import { pkg } from './lib/pkg.mjs'
 
 const HOSTS = 3
 const DEBUG = process.env.DEBUG != null
@@ -41,6 +42,8 @@ main()
 
 async function main() {
   const launchPad = createLaunchPad()
+
+  launchPad.scrollText(`hallo! ${pkg.version}`, 57, 2, 30)
 
   function shutItDown() {
     launchPad.shutdown()
