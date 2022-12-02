@@ -1,6 +1,10 @@
 es-apm-sys-sim - elasticsearch apm system metrics simulator for launchpad
 ================================================================================
 
+[![Watch the video](images/es-apm-sys-sim-lp-movie.png)](https://youtu.be/b5x83IvdLDs)
+
+https://youtu.be/b5x83IvdLDs
+
 Writes simple apm-like cpu metrics documents, for 3 hosts, on the specified 
 interval, to the specified index at the specified elasticsearch cluster.
 
